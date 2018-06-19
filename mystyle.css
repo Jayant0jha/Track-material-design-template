@@ -1,0 +1,177 @@
+.sidenav {
+	background-color: rgb(0, 31, 42);
+	align-items: left;
+	align-content: left; 
+	max-width: 250px;
+	height: auto;
+}
+
+.button {
+	text-align: left;
+	color: white;
+}
+
+.home {
+	background-color: rgb(60, 198, 113);
+	margin: 0px;
+	height: 62px;
+}
+
+.home:hover {
+	background-color: rgb(115, 206, 150) !important;
+}
+
+.toolbar {
+	color: black !important;
+	background-color: white !important;
+	margin: 0px;
+	max-height: 50px;
+}
+
+.md-icon-button:hover {
+	background-color: rgb(180, 180, 180) !important;
+}
+
+.person-button:hover {
+	background-color: rgb(180, 180, 180) !important;
+
+}
+
+.right {
+	width: 100%;
+}
+
+.background {
+	background-color: rgb(229, 229, 229);
+
+}
+
+.head1 {
+	margin: 8px !important;
+	font-weight: inherit;
+}
+
+.text {
+	padding: 0px !important;
+	margin: 8px !important;
+	font-weight: inherit;
+}
+
+.row1{
+	margin: 16px;
+}
+
+.card1 {
+	background-color: red;
+
+}
+
+.card2 {
+	background-color: orange;
+
+}
+
+.card3 {
+	background-color: blue;
+
+}
+
+.card4 {
+	background-color: green;
+
+}
+
+.card-icon {
+	font-size: 50px;
+	color: white;
+
+}
+
+.card-content {
+	border-top: 0.5px solid #dedcdc; 
+}
+
+.loader1  {
+	position: relative;
+	margin-bottom: 30px !important; 
+
+}
+
+.loader1 svg path { 
+	stroke: #06b1e8 !important; 
+}
+
+.percentage1 {
+	position: absolute;
+	left: 0;
+    top: 12%;
+    width: 100%;
+    text-align: center;
+    color: #0493c1;
+
+}
+
+.loader2  {
+	position: relative;
+	margin-bottom: 30px !important; 
+
+}
+
+.loader2 svg path { 
+	stroke: #ea0142 !important; 
+}
+
+.percentage2 {
+	position: absolute;
+	left: 0;
+    top: 12%;
+    width: 100%;
+    text-align: center;
+    color: #ea0142;
+
+}
+
+.loader3  {
+	position: relative;
+	margin-bottom: 30px !important; 
+
+}
+
+.loader3 svg path { 
+	stroke: #009c7f !important; 
+}
+
+.percentage3 {
+	position: absolute;
+	left: 0;
+    top: 12%;
+    width: 100%;
+    text-align: center;
+    color:  #00e2b8 ;
+
+}
+
+.loader4  {
+	position: relative;
+	margin-bottom: 30px !important; 
+
+}
+
+.loader4 svg path { 
+	stroke: orange !important; 
+}
+
+.percentage4 {
+	position: absolute;
+	left: 0;
+    top: 12%;
+    width: 100%;
+    text-align: center;
+    color: #fdde00;
+
+}
+
+.graph {
+	max-height: 300px !important;
+	max-width: 500px !important;
+}
