@@ -1,0 +1,155 @@
+<html lang="en" >
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.8/angular-material.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body ng-app="task1" ng-cloak>
+  
+  <div layout="row"  >
+
+    <md-sidenav class= "sidenav" md-component-id="left" md-is-locked-open = "true" >
+      <md-button class="HOME" layout="row" layout-align="start center" ><i class="material-icons" layout-margin>home</i>Home</md-button>
+      
+      <md-button class="button" layout="row" layout-align="start center" ><i class="material-icons" layout-margin>dashboard</i>Dashboard
+      </md-button>
+      <md-button class="button" layout="row" layout-align="start center" ><i class="material-icons" layout-margin>computer</i>UI Elemenet
+      </md-button>
+      <md-button class="button" layout="row" layout-align="start center" ><i class="material-icons" layout-margin>insert_chart</i>Charts
+      </md-button>
+      <md-button class="button" layout="row" layout-align="start center" ><i class="material-icons" layout-margin>tab</i>Tabs and Panels
+      </md-button>
+      <md-button class="button" layout="row" layout-align="start center" ><i class="material-icons" layout-margin>table_chart</i>Responsive Tables
+      </md-button>
+      <md-button class="button" layout="row" layout-align="start center" ><i class="material-icons" layout-margin>assignment</i>Forms
+      </md-button>
+      <md-button class="button" layout="row" layout-align="start center" ><i class="material-icons" layout-margin>filter_list</i>    Multi-Level Dropdown</md-button>
+      <md-button class="button" layout="row" layout-align="start center" ><i class="material-icons" layout-margin>note</i>Empty Page
+      </md-button>
+    </md-sidenav>
+    <div layout="column" class="right">
+    <md-toolbar class="toolbar">
+      <div class="md-toolbar-tools">
+        <md-button class="md-icon-button"><i class="material-icons">more_vert</i>
+        </md-button>
+        <div layout="row" flex="100" layout-align="end center">
+          <md-button class="md-icon-button"><i class="material-icons">email</i>
+          </md-button>
+          <md-button class="md-icon-button"><i class="material-icons">notification_important</i>
+          </md-button>
+          <md-button layout layout-align="center center" class="person-button"><i class="material-icons">person</i>Jayant Ojha
+          </md-button>
+        </div>
+      </div>
+    </md-toolbar>
+    <div layout="column" class="background">
+      <h1 class="head1">Dashboard</h1>
+      <h5 class="text"> > Home / Dashboard / Data </h5>
+      <md-divider></md-divider>
+      <div layout="row" layout-align="space-between center" class="row1">
+          <md-card  layout flex="20">
+            <div flex="40" class="card1" layout layout-align="center center" ><i class="material-icons card-icon">remove_red_eye</i></div>
+            <div layout="column" flex="60">
+              <div layout layout-align="center center" ><h3>16,150</h3></div>
+              <div layout layout-align="center center" class="card-content"><h5>Daily Visits</h5></div>
+            </div>
+          </md-card>
+
+          <md-card  layout flex="20">
+            <div flex="40" class="card2" layout layout-align="center center" ><i class="material-icons card-icon">shopping_cart</i></div>
+            <div layout="column" flex="60">
+              <div layout layout-align="center center" ><h3>25,550</h3></div>
+              <div layout layout-align="center center" class="card-content"><h5>Sales</h5></div>
+            </div>
+          </md-card>
+
+          <md-card  layout flex="20">
+            <div flex="40" class="card3" layout layout-align="center center" ><i class="material-icons card-icon">sms</i></div>
+            <div layout="column" flex="60">
+              <div layout layout-align="center center" ><h3>11,225</h3></div>
+              <div layout layout-align="center center" class="card-content"><h5>Comments</h5></div>
+            </div>
+          </md-card>
+
+          <md-card  layout flex="20">
+            <div flex="40" class="card4" layout layout-align="center center" ><i class="material-icons card-icon">people</i></div>
+            <div layout="column" flex="60">
+              <div layout layout-align="center center" ><h3>72,525</h3></div>
+              <div layout layout-align="center center" class="card-content"><h5>No. Of Visits</h5></div>
+            </div>
+          </md-card>
+      </div>
+
+      <div layout="row" layout-align="space-between center" class="row1">
+        <md-card  layout="column" flex="20" layout-align="space-around center">
+          <h3>Profit</h3>
+          <div class="loader1">
+            <md-progress-circular md-mode="indeterminate" md-diameter="80px"></md-progress-circular>
+            <div><h2 class="percentage1">84%</h2></div>
+          </div>  
+        </md-card>
+
+        <md-card  layout="column" flex="20" layout-align="space-around center">
+          <h3>No. Of Visits</h3>
+          <div class="loader2">
+            <md-progress-circular md-mode="indeterminate" md-diameter="80px"></md-progress-circular>
+            <div><h2 class="percentage2">46%</h2></div>
+          </div>  
+        </md-card>
+
+        <md-card  layout="column" flex="20" layout-align="space-around center">
+          <h3>Customers</h3>
+          <div class="loader3">
+            <md-progress-circular md-mode="indeterminate" md-diameter="80px"></md-progress-circular>
+            <div><h2 class="percentage3">82%</h2></div>
+          </div>  
+        </md-card>
+
+        <md-card  layout="column" flex="20" layout-align="space-around center">
+          <h3>Sales</h3>
+          <div class="loader4">
+            <md-progress-circular md-mode="indeterminate" md-diameter="80px"></md-progress-circular>
+            <div><h2 class="percentage4">55%</h2></div>
+          </div>  
+        </md-card>
+
+      </div>
+      <div layout="row" layout-align="space-between center" class="row1">
+        <div ><img  src="graph1.jpg" class="graph"></div>
+        <div ><img  src="graph2.png" class="graph"> </div>
+      </div>  
+
+
+    </div>
+  </div>
+    
+
+  </div> 
+
+  
+  <!-- Angular Material requires Angular.js Libraries -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-aria.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-messages.min.js"></script>
+
+  <!-- Angular Material Library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.8/angular-material.min.js"></script>
+  
+  <!-- Your application bootstrap  -->
+  <script type="text/javascript">    
+    /**
+     * You must include the dependency on 'ngMaterial' 
+     */
+    angular.module('task1', ['ngMaterial', 'ngMessages']);
+  </script>
+  
+</body>
+</html>
+
+<!--
+Copyright 2016-2018 Google Inc. All Rights Reserved. 
+Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://material.angularjs.org/latest/license.
+-->
